@@ -6,8 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to time in GoLang")
-
 	presentTime := time.Now()
 	// fmt.Println(presentTime)
 	fmt.Print(presentTime.Format("01-02-2006 15:04:05 Monday"))

@@ -7,9 +7,6 @@ import (
 )
 
 func main() {
-	welcome := "Welcome to user input"
-	fmt.Println(welcome)
-
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter the rating for our Pizza:")
 
